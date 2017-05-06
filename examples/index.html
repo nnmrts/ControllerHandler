@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+
+	<title>ControllerHandler Example</title>
+
+	<!-- DEPENDENCIES -->
+	<!-- | JS -->
+	<!-- || LIBRARIES -->
+	<!-- ||| ANGULAR -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular-animate.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular-aria.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular-messages.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular-sanitize.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular-route.js"></script>
+	<!-- ||| CONTROLLERHANDLER -->
+	<script src="../controllerhandler.min.js"></script>
+
+	<!-- MAIN -->
+	<script src="main.js"></script>
+	</head>
+
+	<body ng-app="MyApp" ng-cloak>
+		<div ng-controller="MyController" style="border: green solid; margin: 20px; padding: 20px; font-family: sans-serif;">
+			<p>{{exampleString}}</p>
+
+			<p>The name of the controller here is "{{controller.name}}".</p>
+			<p>It's dependencies are <span ng-repeat="dependency in controller.dependencies">{{dependency}}<span ng-if="!$last">, </span></span>.</p>
+			<div ng-controller="MyOtherController" style="border: red solid; margin: 20px; padding: 20px; font-family: sans-serif;">
+				<p>The name of the controller here is "{{controller.name}}".</p>
+				<p>It's dependencies are <span ng-repeat="dependency in controller.dependencies">{{dependency}}<span ng-if="!$last">, </span></span>.</p>
+			</div>
+		</div>
+
+	</body>
+
+</html>
