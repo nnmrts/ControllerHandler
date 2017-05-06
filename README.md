@@ -2,7 +2,7 @@
 
 ControllerHandler is a small JavaScript constructor function for AngularJS.
 
-It simplifies the process of declaring controllers makes dependency injection a little bit easier.
+It simplifies the process of declaring controllers and makes dependency injection a little bit easier.
 
 ---
 
