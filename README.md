@@ -80,4 +80,4 @@ Another feature is the `debug` option. If it is set to true, you can see all inf
 
 ## Docs
 
-Head over to the docs folder, there is everything explained in detail about how to use ControllerHandler.
+Download this repository and open the index.html in the docs folder, there is everything explained in detail about how to use ControllerHandler.
