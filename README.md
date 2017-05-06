@@ -71,6 +71,14 @@ MyOtherControllerHandler = new ControllerHandler({
 
 ```
 
+You can find an example site where ControllerHandler is used in the example folder.
+
+## Features
+
 ControllerHandler manages inline dependency injection for you, so you don't have to write down your depencies twice but at the same time your app still works when minified. Also, it gives you a nice little object to configure your controller and not some confusing arrays or parentheses.
 
 Another feature is the `debug` option. If it is set to true, you can see all information about your controller(s) in your browser console.
+
+## Docs
+
+Head over to the docs folder, there is everything explained in detail about how to use ControllerHandler.
