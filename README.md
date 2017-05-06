@@ -41,6 +41,8 @@ Using ControllerHandler:
 
 ```js
 
+// MyController
+
 MyControllerFunction = function ($scope, $timeout, $window, $http, $q) {
 
     // $scope.stuff ...
@@ -54,9 +56,6 @@ MyControllerHandler = new ControllerHandler({
 });
 
 // MyOtherController
-//---------------------------------------------------------------------------------------
-//---------------------------------------------------------------------------------------
-//---------------------------------------------------------------------------------------
 
 MyOtherControllerFunction = function ($scope, $timeout, $window, $http, $q) {
 
